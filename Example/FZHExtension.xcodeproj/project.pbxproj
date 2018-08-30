@@ -15,6 +15,7 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		7D9722B2D0BC57C1862363A8 /* Pods_FZHExtension_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46B0E3C173BB0210AE6C4BF /* Pods_FZHExtension_Example.framework */; };
 		903C583B9500E59379173718 /* Pods_FZHExtension_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B14E88183F57DB7809C918E /* Pods_FZHExtension_Tests.framework */; };
+		D6A217FB2137FF9500AF80DA /* DateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A217FA2137FF9500AF80DA /* DateTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C709DB1D2F4DBF5907DE2320 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C9DAF24E248E6B587CFDB360 /* Pods-FZHExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZHExtension_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FZHExtension_Tests/Pods-FZHExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CF3997D91EBB1AE53078A808 /* Pods-FZHExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZHExtension_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FZHExtension_Example/Pods-FZHExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D6A217FA2137FF9500AF80DA /* DateTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				D6A217FA2137FF9500AF80DA /* DateTableViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -349,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				D6A217FB2137FF9500AF80DA /* DateTableViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

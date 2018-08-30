@@ -20,7 +20,7 @@ it, simply add the following line to your Podfile:
 pod 'FZHExtension'
 ```
 ## TODO
-* 判断当前日期是不是周末
+* 判断当前日期是不是周末     ✅
 * 获取当前的日期的月份 
 * 获取当前日期是周几
 

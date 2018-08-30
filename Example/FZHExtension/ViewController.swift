@@ -7,14 +7,12 @@
 //
 
 import UIKit
-import FZHExtension
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let date = Date()
-        print(date.fzh_yesterday)
+        
     }
 }
 

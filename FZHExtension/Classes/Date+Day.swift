@@ -22,11 +22,23 @@ extension Date {
     
     public var fzh_isWeekend: Bool {
         let cal = Calendar.current
-        let compon = cal.dateComponents([.day,.weekday], from: self)
-        if compon.weekday! == 1 || compon.weekday == 6 {
+        let compon = cal.dateComponents([.weekday], from: self)
+        if compon.weekday == 1 || compon.weekday == 7 {
             return true
         }
         return false
+    }
+    
+    public func fzh_weekday(withPrefix prefix: String) -> String {
+        let cal = Calendar.current
+        let compon = cal.dateComponents([.weekday], from: self)
+        if compon.weekday == 7 {
+            return "\(prefix)6"
+        } else if compon.weekday == 1 {
+            return "\(prefix)天"
+        } else {
+            return prefix + "\(compon.weekday! - 1)"
+        }
     }
     
     public func fzh_dayIsWeekend(byDate dateStr: String, dateFormat: String) -> Bool {
